@@ -11,7 +11,7 @@ public class Principal {
 	public static void main(String[] args) {
 		String msg = JOptionPane.showInputDialog(null);
 		
-		Mensagem mensagem = MensagemFactory.getMensagem(new Sms());
+		Mensagem mensagem = MensagemFactory.getMensagem("Email");
 		mensagem.enviarMensagem(msg);
 	}
 
